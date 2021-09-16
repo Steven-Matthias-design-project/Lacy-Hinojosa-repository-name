@@ -1,101 +1,149 @@
 body {
-    background-color: #f0f0f0;
+	background-color: #f0f0f0;
 }
 
 .ipad {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin-left: 1em;
-    /*!*border-color: #e6e6e6;*!*/
-    border: 5px solid #e6e6e6;
-    max-width: 90%;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin-left: 1em;
+	/*!*border-color: #e6e6e6;*!*/
+	border: 5px solid #e6e6e6;
+	max-width: 90%;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90px;
-    width: 100%;
-    margin-top: 2.5em;
-    margin-bottom: 1.5em;
-    background-color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90px;
+	width: 100%;
+	margin-top: 2.5em;
+	margin-bottom: 1.5em;
+	background-color: whitesmoke;
 }
 
-.logo img{
-    height: 150px;
-    width: 150px;
+.logo img {
+	height: 150px;
+	width: 150px;
 }
 
 .second-header {
-    font-weight: bolder;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-family: 'Anton', sans-serif;
+	font-weight: bolder;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: 'Anton', sans-serif;
 }
 
 body {
-    font-family: 'Abel', sans-serif;
+	font-family: 'Abel', sans-serif;
 }
 
-#design{
-    background-color: #E6563B;
-    height: 140px;
-    width: 140px;
-    border-radius: 90%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border: solid thick white;
-    color: white;
-    font-family: 'Anton', sans-serif;
-    margin-left: 2em;
-    font-weight: bolder;
+#design {
+	background-color: #E6563B;
+	height: 140px;
+	width: 140px;
+	border-radius: 90%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: solid thick white;
+	color: white;
+	font-family: 'Anton', sans-serif;
+	margin-left: 2em;
+	font-weight: bolder;
 }
 
 #develop {
-    background-color: #DEA03D;
-    height: 140px;
-    width: 140px;
-    border-radius: 90%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border: solid thick white;
-    color: white;
-    font-family: 'Anton', sans-serif;
-    margin-right: 2em;
-    font-weight: bolder;
+	background-color: #DEA03D;
+	height: 140px;
+	width: 140px;
+	border-radius: 90%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: solid thick white;
+	color: white;
+	font-family: 'Anton', sans-serif;
+	margin-right: 2em;
+	font-weight: bolder;
 }
 
 #support {
-    background-color: #7CB06C;
-    height: 140px;
-    width: 140px;
-    border-radius: 90%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border: solid thick white;
-    color: white;
-    font-family: 'Anton', sans-serif;
-    margin-left: 2em;
-    font-weight: bolder;
+	background-color: #7CB06C;
+	height: 140px;
+	width: 140px;
+	border-radius: 90%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: solid thick white;
+	color: white;
+	font-family: 'Anton', sans-serif;
+	margin-left: 2em;
+	font-weight: bolder;
 }
 
 #host {
-    background-color: #00ABA9;
-    height: 140px;
-    width: 140px;
-    border-radius: 90%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border: solid thick white;
-    color: #f0f0f0;
-    font-family: 'Anton', sans-serif;
-    margin-right: 2em;
-    font-weight: bolder;
+	background-color: #00ABA9;
+	height: 140px;
+	width: 140px;
+	border-radius: 90%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: solid thick white;
+	color: #f0f0f0;
+	font-family: 'Anton', sans-serif;
+	margin-right: 2em;
+	font-weight: bolder;
+}
+
+#featured {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+}
+
+#D1 {
+	background-color: #E6563B;
+	height: 30px;
+	width: 30px;
+	border-radius: 90%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#D2 {
+	background-color: #DEA03D;
+	height: 30px;
+	width: 30px;
+	border-radius: 90%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#S {
+	background-color: #7CB06C;
+	height: 30px;
+	width: 30px;
+	border-radius: 90%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#H {
+	background-color: #00ABA9;
+	height: 30px;
+	width: 30px;
+	border-radius: 90%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 }
