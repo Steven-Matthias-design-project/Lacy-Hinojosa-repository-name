@@ -19,7 +19,7 @@ body {
     align-items: center;
     height: 90px;
     width: 100%;
-    margin-top: 1.5em;
+    margin-top: 2.5em;
     margin-bottom: 1.5em;
     background-color: whitesmoke;
 }
@@ -27,4 +27,75 @@ body {
 .logo img{
     height: 150px;
     width: 150px;
+}
+
+.second-header {
+    font-weight: bolder;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Anton', sans-serif;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+#design{
+    background-color: #E6563B;
+    height: 140px;
+    width: 140px;
+    border-radius: 90%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: solid thick white;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    margin-left: 2em;
+    font-weight: bolder;
+}
+
+#develop {
+    background-color: #DEA03D;
+    height: 140px;
+    width: 140px;
+    border-radius: 90%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: solid thick white;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    margin-right: 2em;
+    font-weight: bolder;
+}
+
+#support {
+    background-color: #7CB06C;
+    height: 140px;
+    width: 140px;
+    border-radius: 90%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: solid thick white;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    margin-left: 2em;
+    font-weight: bolder;
+}
+
+#host {
+    background-color: #00ABA9;
+    height: 140px;
+    width: 140px;
+    border-radius: 90%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: solid thick white;
+    color: #f0f0f0;
+    font-family: 'Anton', sans-serif;
+    margin-right: 2em;
+    font-weight: bolder;
 }
