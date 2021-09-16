@@ -13,20 +13,35 @@ body {
 	max-width: 90%;
 }
 
+nav {
+	height: 120px;
+	width: 100vw;
+}
+
 .logo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 90px;
 	width: 100%;
-	margin-top: 2.5em;
+	margin-top: 2em;
 	margin-bottom: 1.5em;
-	background-color: whitesmoke;
+	background-color: white;
+	/*background-color: blue;*/
+
 }
 
 .logo img {
 	height: 150px;
 	width: 150px;
+}
+
+.nav-item {
+	list-style-type: none;
+}
+
+h2 {
+	margin-top: 1.5em;
 }
 
 .second-header {
@@ -154,4 +169,10 @@ body {
 
 @media only screen and (min-width: 600px){
 
+}
+
+@media only screen and (min-width: 576px) {
+	.disappear-xs {
+		display: none;
+	}
 }
