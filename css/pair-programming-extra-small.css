@@ -190,12 +190,18 @@ body {
 	hr {
 		display: none;
 	}
+	.other-images {
+		display: none;
+	}
 
 }
 
 @media only screen and (min-width: 576px) {
 	.disappear-xs {
 		display: none;
+	}
+	.image-container {
+		display: flex;
 	}
 
 }
