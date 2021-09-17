@@ -79,24 +79,29 @@
 
 
     <div class="secondary-container text-center">
-        <div class="row">
+        <div class="parent row">
             <div class="second-header col-12">
                 <h4>FROM PARK CITY, UTAH</h4>
             </div>
-            <div class="col-6">
-                <p id="design"> DESIGN</p>
-            </div>
-            <div class="col-6">
-                <p id="develop">DEVELOP</p>
-            </div>
-            <div class="col-6">
-                <p id="support">SUPPORT</p>
-            </div>
-            <div class="col-6">
-                <p id="host">HOST</p>
+            <div class="row">
+                <div id="design" class="child col-3 col-sm-3">
+                    DESIGN
+                </div>
+                <div id="develop" class="child col-3 col-sm-3">
+                    DEVELOP
+                </div>
+                <div class="w-100 d-sm-none"></div>
+                <div id="support" class="child col-3 col-sm-3">
+                    SUPPORT
+                </div>
+                <div id="host" class="child col-3 col-sm-3">
+                    HOST
+                </div>
             </div>
         </div>
     </div>
+
+    <hr style="width:100%; color:black;">
 
     <div class="third-container text-center">
         <div class="row">
@@ -106,15 +111,67 @@
         </div>
     </div>
 
-    <div class="image-container text-center">
+
+    <div class="container">
         <div class="row">
-            <div class="ipad col-12">
-                <img alt="apple ipad image"
-                     class="img-fluid"
-                     src="/img/apple-ipad.jpg">
+            <div class="row col-md-8">
+                <div class="image-container">
+                    <div class="ipad col-6">
+                        <img alt="apple ipad image"
+                             class="img-thumbnail"
+                             src="/img/apple-ipad.jpg">
+                    </div>
+                    <div class="other-images col-sm-6">
+                        <img alt="man image"
+                             class="img-thumbnail"
+                             src="/img/man.jpg">
+                    </div>
+                </div>
+                <div class="image-container">
+                    <div class="other-images col-sm-6">
+                        <img alt="macbook image"
+                             class="img-thumbnail"
+                             src="/img/macbook.jpg">
+                    </div>
+                    <div class="other-images col-sm-6">
+                        <img alt="security image"
+                             class="img-thumbnail"
+                             src="/img/security.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="image-container-two d-none d-md-flex col-md-4">
+                <div>
+                    <img alt="apple ipad image"
+                         class="img-fluid"
+                         src="/img/apple-ipad.jpg">
+                </div>
             </div>
         </div>
     </div>
+
+    <!--            <div class="parent row">-->
+    <!--                <div class="second-header col-12">-->
+    <!--                    <h4>FROM PARK CITY, UTAH</h4>-->
+    <!--                </div>-->
+    <!--                <div class="row">-->
+    <!--                    <div id="design" class="child col-3 col-sm-3">-->
+    <!--                        DESIGN-->
+    <!--                    </div>-->
+    <!--                    <div id="develop" class="child col-3 col-sm-3">-->
+    <!--                        DEVELOP-->
+    <!--                    </div>-->
+    <!--                    <div class="w-100 d-sm-none"></div>-->
+    <!--                    <div id="support" class="child col-3 col-sm-3">-->
+    <!--                        SUPPORT-->
+    <!--                    </div>-->
+    <!--                    <div id="host" class="child col-3 col-sm-3">-->
+    <!--                        HOST-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+
 
     <div class="bottom-container text-center">
         <div class="row">
