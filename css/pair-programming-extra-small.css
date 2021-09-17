@@ -233,6 +233,12 @@ body {
 
 @media screen and (min-width: 768px) {
 	.image-container-two {
-		display: flex;
+		display: block;
+		box-sizing: content-box;
+	}
+
+	.side-image {
+		width: 100%;
+		height: auto;
 	}
 }
