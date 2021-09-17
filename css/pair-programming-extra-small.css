@@ -196,12 +196,22 @@ body {
 
 }
 
+	.image-footer {
+		display: flex;
+		justify-content: space-around;
+	}
+
 @media only screen and (min-width: 576px) {
 	.disappear-xs {
 		display: none;
 	}
 	.image-container {
 		display: flex;
+	}
+	.img-fluid {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 }
